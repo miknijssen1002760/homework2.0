@@ -1,0 +1,5 @@
+geel:#fff71b
+home_row:#18254b
+deaf/hard_of_hearing:
+background:#3d4d7a
+strength:

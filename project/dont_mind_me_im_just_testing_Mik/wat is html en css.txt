@@ -1,0 +1,5 @@
+html staat voor hyperText markup language.
+het wordt gebruikt voor het maken van de layout voor websites
+
+css staat voor cascading style sheets.
+css wordt gebruikt voor het structureren van html en xml scripts.
