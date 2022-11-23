@@ -1,34 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Zorgen Zonder Zorgen</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      // When the user clicks on <div>, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
   </head>
 
   <body>
-    <!-- hier wordt de navbar gemaakt-->
-
-    <div class="navbar"></div>
-      <div class="boxes" id="first-of-four"></div>
-      <div class="boxes" id="third-of-four" ></div>
-    <!-- NICE COCK -->
-    <div class="buttons">
-      <img id="back-icon" src="./img/back-icon.png" alt="Pijltje terug, klik hier om terug te gaan naar de vorige pagina.">
-      <div id="title">Caregoriën</div>
-      <img id="speaker-icon" src="./img/speakerIcon.png" alt="Speaker icoontje, klik om de site voor te laten lezen.">
-      <img id="i_icon" src="./img/i_icon.png" alt="Informatie icoontje, klik om hulp te krijgen bij het navigeren van de site.">
-    </div>
-    
-    <!-- hier worden de categorien opgebouwd -->
-
-    <div class="categorieKnop" style="background-color: rgb(24,37,75)">
-      <img id="plus" src="./img/plusTeken.png" />
-    </div>
-
-    <div class="categorieKnop" style="background-color: rgb(24,37,75)">
-      <img id="min" src="./img/plusTeken.png" />
+    <div class="popup" onclick="myFunction()">
+      Click me!
+      <span class="popuptext" id="myPopup"> Popup text... </span>
     </div>
   </body>
-
 </html>
